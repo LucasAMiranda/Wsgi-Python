@@ -14,10 +14,10 @@ CRIE SEU AMBIENTE VIRTUAL => python3 -m venv nome-do-seu-ambiente-virtual
 
 # passo 2
 
-INSTALE O gunicorn para exercutar o servidor => pip install gunicorn 
-Observação: Para sitemas operacionais windows instale o waitress => pip install waitress
+<p>INSTALE O gunicorn para exercutar o servidor => pip install gunicorn</p>
+<p><i>Observação:<i/> Para sitemas operacionais windows instale o waitress => pip install waitress</p>
 
 # passo 3
 
-Execute o comando no terminal linux ou cmd windows => gunicorn myapp.wsgi:application -b 127.0.0.1:5002(ou qualquer outra porta que você quiser)
-Com waitress execute o comando => waitress-serve --listen=*:8000 WebserverWsgi.wsgi:application
+<p>Execute o comando no terminal linux ou cmd windows => gunicorn myapp.wsgi:application -b 127.0.0.1:5002(ou qualquer outra porta que você quiser)</p>
+<p>Com waitress execute o comando => waitress-serve --listen=*:8000 WebserverWsgi.wsgi:application</p>
