@@ -20,4 +20,4 @@ CRIE SEU AMBIENTE VIRTUAL => python3 -m venv nome-do-seu-ambiente-virtual
 # passo 3
 
 <p>Execute o comando no terminal linux ou cmd windows => gunicorn myapp.wsgi:application -b 127.0.0.1:5002(ou qualquer outra porta que você quiser)</p>
-<p>Com waitress execute o comando => waitress-serve --listen=*:8000 WebserverWsgi.wsgi:application</p>
+<p>Com waitress execute o comando => waitress-serve --listen=*:8000 myapp.wsgi:application</p>
